@@ -46,9 +46,9 @@ class Clothing(Product):
         print("Size:", self.size)
 
 
-# Test Product Catalog Functionality
+
 if __name__ == "__main__":
-    # Creating objects of each subclass and displaying their info
+   
     book = Book("B001", "Python Essentials", 79.99, "J. Doe")
     electronic = Electronic("E001", "Laptop", 599.99, "15-inch, 16GB RAM, 512GB SSD")
     clothing = Clothing("C001", "T-Shirt", 10.99, "Large")
